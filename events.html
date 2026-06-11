@@ -3,33 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NetworkOne | Corporate Events & Forums</title>
+    <title>Corporate Events | NetworkOne</title>
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;900&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
     <script id="tailwind-config">
         tailwind.config = {
             theme: {
                 extend: {
                     colors: { "brand-green": "#83BD52", "brand-blue": "#1C84BE", "surface-light": "#F8F9FA", "text-main": "#2D3142" },
-                    fontFamily: { "headline": ["Epilogue", "sans-serif"], "body": ["Manrope", "sans-serif"] }
+                    fontFamily: { "sans": ["Inter", "sans-serif"] }
                 }
             }
         }
     </script>
 </head>
-<body class="bg-surface-light font-body text-text-main antialiased flex flex-col min-h-screen">
+<body class="bg-surface-light font-sans text-text-main antialiased flex flex-col min-h-screen">
 
     <header class="w-full border-b border-gray-200 bg-white sticky top-0 z-50 shadow-sm">
         <div class="max-w-7xl mx-auto flex justify-between items-center px-6 h-20">
-            <a href="index.html" class="flex items-center">
-                <img src="images/NetworkOne_LOGO.png" alt="NetworkOne" class="h-10 w-auto object-contain">
-            </a>
-            <nav id="desktop-nav" class="hidden md:flex items-center gap-1 h-full font-bold text-sm">
-                <a href="index.html" class="text-gray-500 border-b-2 border-transparent hover:text-brand-blue h-full flex items-center px-4">Home</a>
-                <a href="about.html" class="text-gray-500 border-b-2 border-transparent hover:text-brand-blue h-full flex items-center px-4">About Us</a>
-                <a href="services.html" class="text-gray-500 border-b-2 border-transparent hover:text-brand-blue h-full flex items-center px-4">Services</a>
-                <a href="events.html" class="text-brand-blue border-b-2 border-brand-blue h-full flex items-center px-4">Events</a>
-                <a href="contact.html" class="text-gray-500 border-b-2 border-transparent hover:text-brand-blue h-full flex items-center px-4">Contact</a>
+            <a href="index.html"><img src="NetworkOne_LOGO.png" alt="NetworkOne" class="h-10 w-auto object-contain"></a>
+            <nav class="hidden md:flex items-center gap-1 h-full font-bold text-sm">
+                <a href="index.html" class="text-gray-500 border-b-2 border-transparent hover:text-brand-green h-full flex items-center px-4">Home</a>
+                <a href="partners.html" class="text-gray-500 border-b-2 border-transparent hover:text-brand-green h-full flex items-center px-4">Our Partners</a>
+                <a href="services.html" class="text-gray-500 border-b-2 border-transparent hover:text-brand-green h-full flex items-center px-4">Services</a>
+                <a href="events.html" class="text-brand-green border-b-2 border-brand-green h-full flex items-center px-4">Events</a>
             </nav>
             <div class="hidden sm:flex items-center gap-4">
                 <a href="contact.html" class="px-5 py-2.5 bg-brand-green text-white font-bold text-sm rounded-lg shadow-sm hover:bg-opacity-90">Get In Touch</a>
@@ -37,107 +34,69 @@
         </div>
     </header>
 
-    <main class="flex-grow py-16">
-        <div class="max-w-6xl mx-auto px-6">
-            <div class="bg-white border border-gray-200 rounded-3xl p-8 lg:p-12 shadow-sm space-y-10">
-                
-                <div class="space-y-3 text-center border-b border-gray-100 pb-6">
-                    <span class="text-xs font-bold uppercase tracking-widest text-gray-400">Empowering the Future</span>
-                    <h2 class="text-3xl font-black font-headline text-gray-800">NetworkOne ICT Business Forum 2026</h2>
-                    <p class="text-gray-600 font-semibold text-sm max-w-xl mx-auto">Where Business Strategy Meets Technological Innovation</p>
+    <main class="flex-grow py-20">
+        <div class="max-w-4xl mx-auto px-6">
+            <h1 class="text-4xl font-black tracking-tight text-center mb-4">NetworkOne Educational Briefings</h1>
+            <p class="text-center text-gray-500 mb-12">Review our timeline of technical integration briefings and architecture summits.</p>
+            
+            <div class="space-y-6">
+                <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
+                    <div class="text-xs font-bold text-brand-green uppercase tracking-wider mb-1">June 2026 Summit</div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">Next-Gen Telecom Infrastructure Deployments</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">An exclusive technical panel overview tracking modern redundancy designs in enterprise cloud-voice routing environments.</p>
                 </div>
 
-                <div class="grid md:grid-cols-2 gap-8 items-center bg-gray-50 p-6 rounded-2xl border border-gray-150">
-                    <div class="space-y-4">
-                        <p class="text-xs text-gray-600 leading-relaxed">In January 2026, NetworkOne proudly hosted and sponsored the NetworkOne ICT Business Forum 2026. Held at the elegant and historic Balmoral property, this exclusive, half-day breakfast event brought together our valued customers, partners, and key stakeholders for a morning of high-impact insights and strategic networking.</p>
-                        <p class="text-xs text-gray-600 leading-relaxed">The forum served as a premier convergence point, bridging the gap between business leadership and information technology to help organizations navigate an increasingly digital world.</p>
-                    </div>
-                    <div class="bg-white p-8 border border-gray-200 rounded-xl text-center shadow-sm">
-                        <p class="text-sm font-medium text-gray-700 italic">"The NetworkOne ICT Business Forum is more than just a conference; it is a collaborative space where technology is demystified, and business strategies are elevated."</p>
-                    </div>
+                <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
+                    <div class="text-xs font-bold text-brand-green uppercase tracking-wider mb-1">March 2026 Briefing</div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">Physical Plant Architecture Protocols</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Reviewing engineering standards for layout safety and speed isolation over large physical properties.</p>
                 </div>
-
-                <div class="space-y-6">
-                    <div class="border-l-4 border-gray-300 pl-4">
-                        <h3 class="text-lg font-black font-headline text-gray-800">Event Highlights & Key Focus Areas</h3>
-                        <p class="text-xs text-gray-500">Our curated lineup of industry experts delivered powerful presentations.</p>
-                    </div>
-
-                    <div class="grid md:grid-cols-3 gap-6">
-                        <div class="p-5 border border-gray-200 rounded-xl space-y-2">
-                            <h4 class="font-bold text-sm text-gray-800">🤖 Artificial Intelligence (AI)</h4>
-                            <p class="text-xs text-gray-600 leading-relaxed">Exploring the practical application of AI to drive operational efficiency and business growth workflows.</p>
-                        </div>
-                        <div class="p-5 border border-gray-200 rounded-xl space-y-2">
-                            <h4 class="font-bold text-sm text-gray-800">🔒 Cybersecurity Frameworks</h4>
-                            <p class="text-xs text-gray-600 leading-relaxed">Navigating the modern threat landscape and implementing robust frameworks to protect organizational assets.</p>
-                        </div>
-                        <div class="p-5 border border-gray-200 rounded-xl space-y-2">
-                            <h4 class="font-bold text-sm text-gray-800">🚀 Visionary Leadership</h4>
-                            <p class="text-xs text-gray-600 leading-relaxed">Managing change and leading teams effectively through rapid, ongoing technological transformations.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-200 space-y-4">
-                    <h3 class="text-base font-bold text-gray-800">Why This Event Matters</h3>
-                    <ul class="grid md:grid-cols-3 gap-6 text-xs text-gray-600">
-                        <li class="space-y-1"><strong class="block text-gray-800">Direct Access to Experts</strong> Hearing firsthand from specialists cutting through the noise of the complex tech landscape.</li>
-                        <li class="space-y-1"><strong class="block text-gray-800">Networking Frameworks</strong> Connecting with peers, industry leaders, and the NetworkOne team over formal configuration settings.</li>
-                        <li class="space-y-1"><strong class="block text-gray-800">Actionable Strategies</strong> Walking away with real-world insights that can be immediately implemented into operations.</li>
-                    </ul>
-                </div>
-
-                <div class="text-center max-w-xl mx-auto space-y-2">
-                    <h3 class="font-bold text-gray-800 text-sm">Looking to the Future</h3>
-                    <p class="text-xs text-gray-500 leading-relaxed">At NetworkOne, we are committed to continuous growth. The ICT Business Forum will continue to evolve, expand, and innovate, with the ultimate goal of becoming the Nation’s premiere ICT event.</p>
-                </div>
-
-                <div class="bg-gray-950 rounded-xl p-6 text-white flex flex-col sm:flex-row items-center justify-between gap-6">
-                    <div>
-                        <h4 class="font-bold text-sm">Missed the event or want to revisit the highlights?</h4>
-                        <p class="text-xs text-gray-400">Review presentation deep-dives on our streaming media station channel.</p>
-                    </div>
-                    <a href="https://www.youtube.com/@networkonetalks5441" target="_blank" class="px-5 py-2.5 bg-red-600 text-white text-xs font-bold rounded uppercase hover:bg-red-700 transition-colors">Visit YouTube Portal</a>
-                </div>
-
             </div>
         </div>
     </main>
 
-    <footer class="bg-gray-900 text-gray-400 text-sm border-t border-gray-800">
-        <div class="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer class="bg-gray-950 text-gray-400 text-sm border-t border-gray-900">
+        <div class="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-4 gap-12">
             <div class="space-y-4">
-                <div class="flex items-center gap-2">
-                    <img src="images/NetworkOne_LOGO.png" alt="NetworkOne Logo" class="h-7 w-auto brightness-0 invert opacity-70">
-                </div>
-                <p class="text-xs text-gray-500 leading-relaxed">Providing high-performance structural systems engineering, reliable telecom design, and multi-tier technology framework auditing across corporate profiles.</p>
+                <img src="NetworkOne_LOGO.png" alt="NetworkOne" class="h-7 w-auto brightness-0 invert opacity-70">
+                <p class="text-xs text-gray-500 leading-relaxed">Providing high-performance structural systems engineering, reliable telecom design, and multi-tier technology framework auditing.</p>
             </div>
             <div class="space-y-3">
-                <h4 class="text-white font-bold text-xs uppercase tracking-widest border-l border-gray-800 pl-3">Navigation Links</h4>
-                <div class="flex flex-col gap-2 text-xs pl-3">
+                <h4 class="text-white font-bold text-xs uppercase tracking-widest border-l border-gray-800 pl-3">Navigation</h4>
+                <div class="flex flex-col gap-2.5 text-xs pl-3">
                     <a href="index.html" class="hover:text-white transition-colors">Home Dashboard</a>
-                    <a href="about.html" class="hover:text-white transition-colors">About Corporate</a>
+                    <a href="partners.html" class="hover:text-white transition-colors">Our Partners</a>
                     <a href="services.html" class="hover:text-white transition-colors">Engineering Services</a>
                     <a href="events.html" class="hover:text-white transition-colors">Corporate Events</a>
-                    <a href="contact.html" class="hover:text-white transition-colors">Contact Panel</a>
                 </div>
             </div>
             <div class="space-y-3">
                 <h4 class="text-white font-bold text-xs uppercase tracking-widest border-l border-gray-800 pl-3">Follow Us</h4>
-                <div class="flex flex-col gap-2 text-xs pl-3">
-                    <a href="https://linkedin.com" target="_blank" class="hover:text-white flex items-center gap-2 transition-colors">💼 Corporate LinkedIn</a>
-                    <a href="https://www.youtube.com/@networkonetalks5441" target="_blank" class="hover:text-white flex items-center gap-2 transition-colors">📺 YouTube Channel</a>
-                    <a href="https://instagram.com" target="_blank" class="hover:text-white flex items-center gap-2 transition-colors">📸 Instagram Network</a>
+                <div class="flex flex-col gap-2.5 text-xs pl-3">
+                    <a href="https://linkedin.com" target="_blank" class="hover:text-white transition-colors">LinkedIn Profile</a>
+                    <a href="https://www.youtube.com/@networkonetalks5441" target="_blank" class="hover:text-white transition-colors">YouTube Channel</a>
                 </div>
             </div>
             <div class="space-y-3">
                 <h4 class="text-white font-bold text-xs uppercase tracking-widest border-l border-gray-800 pl-3">Corporate Office</h4>
-                <p class="text-xs text-gray-500 pl-3 leading-relaxed">📍 0000000<br>📞 0000000<br>✉️ 0000000</p>
+                <div class="space-y-2 text-xs pl-3">
+                    <div class="flex items-start gap-2">
+                        <svg class="w-4 h-4 text-brand-green mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        <span>Nassau, Bahamas</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <svg class="w-4 h-4 text-brand-green flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                        <span>(242) 601-6631</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <svg class="w-4 h-4 text-brand-green flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                        <span>info@networkone.net</span>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="max-w-7xl mx-auto px-6 py-6 border-t border-gray-800 text-center text-xs text-gray-600">
-            &copy; 2026 NetworkOne. All Rights Reserved. General Corporate Infrastructure Documentation.
+        <div class="max-w-7xl mx-auto px-6 py-6 border-t border-gray-900 text-center text-xs text-gray-600">
+            &copy; 2026 NetworkOne. All Rights Reserved.
         </div>
     </footer>
 </body>
